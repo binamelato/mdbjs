@@ -1,0 +1,46 @@
+{
+  "users": [
+    {		
+		"status": "active",
+		"name": {
+			"first": "Rita",
+			"middle": "Reign",
+			"last": "Wolff"
+		},
+		"username": "Pinkie-Sauer",
+		"password": "zRHjLWzaCJc4CWJ",
+		"emails": [
+			"Bart_Crooks@yahoo.com"
+		],
+		"phoneNumber": "+79XXXXXXXXX",
+		"location": {
+			"street": "180 Meadow Close",
+			"city": "New York",
+			"state": "Oregon",
+			"country": "Antigua and Barbuda",
+			"zip": "12134"
+		}
+	},
+	{		
+		"status": "active",
+		"name": {
+			"first": "Keegan",
+			"middle": "Bailey",
+			"last": "Schmidt"
+		},
+		"username": "Vivianne-Pouros",
+		"password": "tu1tISbbphhkKwa",
+		"emails": [
+			"Dimitri_Becker@gmail.com"
+		],
+		"phoneNumber": "+79XXXXXXXXX",
+		"location": {
+			"street": "5959 Broderick Spur",
+			"city": "East Timmy",
+			"state": "Louisiana",
+			"country": "Saint Helena",
+			"zip": "86732-8496"
+		}
+	}
+  ]
+}

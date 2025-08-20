@@ -1,0 +1,49 @@
+#aMess{
+	position:fixed;
+	background-color:#0000006b;
+	height:100%;
+	width:100%;
+	top:0px;
+	z-index:600;
+	cursor:default;
+}
+#aMessForm{
+	min-height:40px;
+	background-color:#ffffff;
+	border-radius:6px;
+	font-size:.89rem;
+	display:flex;
+	position:relative;
+	flex-direction:column;
+	width: 400px;
+    margin: 20% auto;
+    padding: 20px;
+    box-shadow: 0 0 3px 3px #8f8f8f;
+}
+#aMessFormHead{
+	font-size:1.0rem;
+	margin:0 0 10px;
+	color:#dd0d0d;
+	font-weight:600;
+}
+#aMessFormBodyClose{
+	text-align:center;
+	font-weight:600;
+	border-radius:3px;	
+	background-color:#000;
+    border:1px solid #3d3d3d;
+    box-shadow:0px 0px 2px #3d3d3d;	
+	color:#fff;
+	padding:8px 12px;
+}
+#aMessFormBody{
+	font-size:0.9rem;
+}
+#aMessButCloseForm{
+	margin:10px 0 0;
+}
+#errLog{
+	margin:0 0 20px;
+	color:#E91E63;
+    font-weight:600;
+}

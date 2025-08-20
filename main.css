@@ -1,0 +1,170 @@
+body{
+	font-family:system-ui;
+    color:#3d3d3d;
+	overflow:hidden;
+}
+.fl{
+	display:flex;
+}
+.container{
+	width:100%;
+	height:100vh;
+}
+#bForm{
+	width:750px;
+	height:500px;
+	margin:10vh auto;
+}
+#dropArea{	
+	border:2px dashed #898989;
+    height:100%;
+    border-radius:9px;
+    display:flex;
+    background-color:#fbfbfb;
+}
+#dropAreaDop{
+	width:200px;
+	margin:auto;
+	text-align:center;
+}
+#leftColumn{
+	padding:10px;
+	width:350px;
+	border-right:2px dashed #898989;	
+}
+#rightColumn{
+	padding:10px;
+	width:400px;
+}
+.perCard{
+	padding:2px;
+    box-shadow:0 0 1px 1px #c3c3c3;
+    margin:2px;
+    border-radius:3px;
+    text-indent:6px;
+    background-color:#fff;
+	font-weight:600;
+	font-size:0.8rem;
+	cursor:default;
+	height:24px;
+    display:flex;
+    align-items: center;
+}
+.perCard:hover{
+	background-color:#898989;
+	color:#fff;
+}
+.-active{
+	background-color:#e91e63;
+	color:#fff;
+}
+#perListHeader{
+	text-align:center;
+    cursor:default;
+    padding:0 0 8px;
+    font-weight:600;
+}
+#perListData, #perRListData{
+	height:400px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#perListButton{
+	display:flex;
+    justify-content:center;
+    height:50px;
+    align-items:center;
+}
+#perListAdd, #perListSave, #perUseSave, #chTemplate{
+	width:100%;
+}
+#perUseDel{
+	width:100px;
+	display:none;
+}
+#perListAdd button, #perListSave button, #perUseSave button, #perUseDel button, #chTemplate button{
+	width:100%;
+    padding:4px;
+    background-color:#fff;
+    border-radius:6px;
+    border:2px solid #898989;
+    filter:drop-shadow(0px 0px 1px #898989);
+    height:30px;
+    color:#3d3d3d;
+	display: flex;
+    text-indent: 4px;
+    justify-content: center;
+    line-height: 18px;
+}
+button>img{
+	width:18px;
+	height:18px;
+}
+#perUseSave button{
+	background-color:#3d3d3d !important;
+    color:#fff !important;
+}
+#perListAdd button:hover>img, #perListSave button:hover>img, #perUseDel button:hover>img, #chTemplate button:hover>img{
+	filter:invert(1);
+}
+#perListAdd button:hover, #perListSave button:hover, #perUseDel button:hover, #chTemplate button:hover{
+    background-color:#3d3d3d;
+    color:#ffffff;
+}
+#rightStatusMess{
+	height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-direction: column;
+	font-size:0.8rem;
+}
+#userButt{
+	display:none;
+	justify-content:center;
+    height:50px;
+    align-items:center;
+}
+.uPole{
+	box-shadow:0 0 1px 1px #c3c3c3;
+    margin:2px;
+    border-radius:3px;
+    text-indent:6px;
+    background-color:#fff;
+    font-size:0.8rem;
+    height:24px;
+    border:none;
+    width:240px;
+}
+
+#tabsHeaderForm{
+	display: flex;
+}  
+#tabsPagesForm{
+}
+.tabsHeader{
+	text-align:center;
+    cursor:default;
+    padding:0 0 8px;
+    font-weight:600;
+	color:#ccc;
+	margin:0 10px 0 0;
+}
+.tabsPages{
+	display: none;
+	height: calc(var(--nach_height) * 10);
+}
+.-act{
+	background-color: var(--color_base);
+    color: #3d3d3d;
+    border: none;
+}
+.-visible{
+	display: block;
+}
+.addtableFoot{
+	border: 1px #979797 dashed;
+	text-align: center;
+	font-weight: 600;
+	cursor: default;
+}
