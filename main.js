@@ -73,8 +73,9 @@ function dropFileLoad(){//дроп файла
 function createFormСompletion(e, data){
 	fileData = data;
 	const dropPlace = document.getElementById(bdArea);
-	dropPlace.innerHTML = "";	
-	dropPlace.insertAdjacentHTML("afterbegin", "<div id='leftColumn'><div id='perListHeader'> СПИСОК: </div><div id='perListData'></div><div id='perListButton'><div id='perListAdd'><button><img src='./imgs/add_ico.png'>Add</button></div><div id='perListSave'><button><img src='./imgs/down_ico.png'>Скачать</button></div><div id='chTemplate'><button><img src='./imgs/temple_ico.png'>Шаблон</button></div><div id='perUseDel'><button> Удалить </button></div></div></div><div id='rightColumn'></div>");
+	const templeButt = "<div id='chTemplate'><button><img src='./imgs/temple_ico.png'>Шаблон</button></div>";
+	dropPlace.innerHTML = "";		
+	dropPlace.insertAdjacentHTML("afterbegin", `<div id='leftColumn'><div id='perListHeader'> СПИСОК: </div><div id='perListData'></div><div id='perListButton'><div id='perListAdd'><button><img src='./imgs/add_ico.png'>Add</button></div><div id='perListSave'><button><img src='./imgs/down_ico.png'>Скачать</button></div>${templeButt}<div id='perUseDel'><button> Удалить </button></div></div></div><div id='rightColumn'></div>`);
 	
 	tabsData = {
 		id: "tabsForm",
